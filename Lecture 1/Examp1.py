@@ -1,0 +1,7 @@
+a = int(input("Enter 1st number : "))
+b = int(input("Enter 2nd number : "))
+print(f"The sum of two numbers is {a + b}")
+print(f"The subtraction of two numbers is {a - b}")
+print(f"The product of two numbers is {a * b}")
+print(f"The division of two numbers is {a / b}")
+print(f"The modulus of two numbers is {a % b}")
