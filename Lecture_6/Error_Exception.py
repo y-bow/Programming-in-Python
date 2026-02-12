@@ -1,9 +1,7 @@
-a = int(input("Enter an integer : "))
-b = int(input("Enter an integer : "))
+a = int(input("Enter the first integer : "))
+b = int(input("Enter the second integer : "))
 
 try:
     print(a/b)
 except ZeroDivisionError:
     print("You divided by zero")
-    
-print("Mourya's laptop is dead")
