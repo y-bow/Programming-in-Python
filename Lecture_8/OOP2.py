@@ -11,6 +11,6 @@ class human:
     def school(self):
         return self.s
 
-h1 = human("Person1", 18, "SCDS")
+h1 = human("Person1", 18 , "SCDS")
 
 print(h1.name())
