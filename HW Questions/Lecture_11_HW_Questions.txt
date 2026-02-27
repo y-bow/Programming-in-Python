@@ -1,5 +1,5 @@
 26th February 2026
 1. How many operators can we overload and how many operators we cannot overload.
-2. Create a method that updates inserts an element in a list in a particular index.
+2. Create a method that updates an element in a list in a particular index.
 3. Create a method that inserts an element in a list in a particular index.
 4. Create a method that deletes an element in a list in a particular index.
