@@ -1,0 +1,2 @@
+5th March 2026
+1. Take a input list from a user, find out the minimum number from the list.

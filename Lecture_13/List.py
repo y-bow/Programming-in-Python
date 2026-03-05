@@ -1,0 +1,17 @@
+l = []
+print(type(l))
+l.append(15)
+l.append(12)
+l.append(15)
+print(l)
+l.insert(3, 99)
+print(l)
+l.pop()
+print(l)
+l = [1,1,2,2,3,3,4,4]
+l.remove(1)
+print(l)
+l.reverse()
+print(l)
+print(l.index(4))
+print(l.count(3))
