@@ -1,4 +1,3 @@
-
 def moveDups():
     n = input("Enter a string in lowercase letter : ")
     s1 = ""
