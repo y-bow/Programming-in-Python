@@ -13,6 +13,6 @@ class person:
         return self.__age > other_object.__age
 
 p1 = person("Robert", 25, "M", 145)
-print(p1)
+p1.person_details()
 p2 = person("Alice", 30, "F", 140)
 print(p1 > p2)

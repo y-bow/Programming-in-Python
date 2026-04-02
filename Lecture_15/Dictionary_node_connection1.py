@@ -11,6 +11,6 @@ for i in d1[node_01]:
             flag=0
 
 if flag==1:
-    print(f"{node_01} and {node_02} are connected with each")
+    print(f"{node_01} and {node_02} are connected with each other")
 else:
-    print(f"{node_01} and {node_02} are not connected with each")
+    print(f"{node_01} and {node_02} are not connected with each other")
