@@ -10,7 +10,7 @@ This repository contains all the **Python programs taught in class**, organized 
 
 ### Folder Details
 
-- **HW/**  
+- **HW Questions/**  
   Contains homework programs given in class.
 
 - **Lecture/**  
