@@ -1,0 +1,9 @@
+2nd April 2026
+
+1. You have unlimited coins of 1,2,5, figure out the no. of ways the amount can be 5.
+
+Example : 
+        5
+        2+2+1
+        1+1+1+1+1
+        1+1+1+2 
