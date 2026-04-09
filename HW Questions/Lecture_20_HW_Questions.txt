@@ -1,0 +1,4 @@
+9th April 2026
+
+1. Tower of Hanoi (3 Discs)
+#HINT : (2^n) - 1 is the minimum number of steps to finish Tower of Hanoi
