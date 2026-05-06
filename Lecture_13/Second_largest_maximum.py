@@ -1,14 +1,13 @@
 l1 = list(map(int,input("Enter the numbers to put in list (seperated by a space) : ").split()))
-maximum = l1[1]
-for i in range(0, len(l1)):
-    
-    temp = l1[i]
+maximum = l1[0]
+maximumtwo = l1[1] if len(l1) > 1 else float('-inf')
+
+for i in range(1, len(l1)):
     if l1[i] > maximum:
+        maximumtwo = maximum  # Old max becomes second max
         maximum = l1[i]
-    if temp < maximum:
-        maximumtwo = temp
+    elif l1[i] > maximumtwo:
+        maximumtwo = l1[i]
 
 print(f"\nMaximum of the list is {maximum}\n")
-print(maximumtwo)
-
-#1 for loop, no sorting, second largest number
+print(f"Second largest is {maximumtwo}")
