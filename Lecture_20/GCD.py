@@ -1,8 +1,8 @@
 def gcd(a, b):
     if b == 0:
-        return 0
+        return a
     else:
-        return gcd(a % b, a)
+        return gcd(b, a % b)
 
 a = int(input("Enter a number (a) : "))
 b = int(input("Enter a number (b) : "))
